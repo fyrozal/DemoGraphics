@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawColor(Color.argb(255, 255, 255, 255));
 
         // Make the brush blue
-        paint.setColor(Color.argb(255,  26, 128, 182));
+        paint.setColor(Color.argb(180,  250, 128, 182));
         // We can change this around as well
 
         // Declare an object of type Bitmap
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawBitmap(bitmapBob, 500, 50, paint);
 
 // Draw a line
-        canvas.drawLine(50,50,250,250,paint);
+        canvas.drawLine(50,50,200,200,paint);
 
         // Draw some text
         canvas.drawText("Game Code School", 50, 50, paint);
