@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawBitmap(bitmapBob, 500, 50, paint);
 
 // Draw a line
-        canvas.drawLine(50,50,200,200,paint);
+        canvas.drawLine(50,50,300,300,paint);
 
         // Draw some text
         canvas.drawText("Game Code School", 50, 50, paint);
