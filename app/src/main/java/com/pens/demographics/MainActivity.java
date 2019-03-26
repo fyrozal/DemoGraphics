@@ -63,10 +63,10 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawLine(50,50,300,300,paint);
 
         // Draw some text
-        canvas.drawText("Game Code School", 50, 50, paint);
+        canvas.drawText("PENS", 50, 50, paint);
 
         // Draw a pixel
-        canvas.drawPoint(40,50,paint);
+        canvas.drawPoint(30,50,paint);
 
         // Draw a circle
         canvas.drawCircle(350,250,100,paint);
